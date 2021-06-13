@@ -8,9 +8,14 @@ homepage = "https://github.com/HectorPulido/human-language-toolkit-chatbot"
 description = "NLTK like chatbot made with pure rust."
 repository = "https://github.com/HectorPulido/human-language-toolkit-chatbot"
 readme = "README.md"
-license = "MIT"
 license-file = "LICENSE"
 keywords = ["cli", "jarvis", "chatbot", "natural language processing", "hector pulido"]
+
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+
 
 [badges]
 maintenance = { status = "actively-developed" }
@@ -23,4 +28,3 @@ rand = "0.8.3"
 serde_json = "1.0.64"
 serde = { version = "1.0.126", features = ["derive"] }
 custom_error = "1.9.2"
-
