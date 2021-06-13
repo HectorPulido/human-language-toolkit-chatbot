@@ -1,13 +1,5 @@
 use super::{Chatbot, ChatbotError, CompiledChatbot};
 
-pub fn suntsu() -> Result<Chatbot, ChatbotError> {
-    return Chatbot::from_file(String::from("bots/suntsu.json"));
-}
-
-pub fn spanish() -> Result<Chatbot, ChatbotError> {
-    return Chatbot::from_file(String::from("bots/spanish.json"));
-}
-
 pub fn eliza() -> Result<CompiledChatbot, ChatbotError> {
     let mut pairs: Vec<(String, Vec<String>)> = Vec::new();
 
@@ -55,11 +47,6 @@ pub fn eliza() -> Result<CompiledChatbot, ChatbotError> {
         fallback,
         reflections,
     };
-
-    // match eliza.to_file(String::from("bots/eliza.json")) {
-    //     Ok(_) => (),
-    //     Err(e) => println!("error at {}", e),
-    // }
 
     let eliza = eliza.compile();
 
