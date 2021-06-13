@@ -1,6 +1,16 @@
 # HLTK chatbot
 This is a regex powered chatbot made in rust, it is based in NLTK https://github.com/nltk/nltk/blob/develop/nltk/chat/util.py
 
+## How to install
+add to your Cargo.toml file 
+```
+[dependencies]
+...
+human_language_toolkit_chatbot = "0.1.0"
+...
+```
+You can find the updated version at https://crates.io/crates/human_language_toolkit_chatbot
+
 ## How to use it 
 You can read from a json file.
 ``` Rust
