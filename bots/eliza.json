@@ -1,0 +1,56 @@
+{
+    "pairs": [
+        [
+            "Hello(.*)",
+            [
+                "Hello... I'm glad you could drop by today.",
+                "Hi there... how are you today?",
+                "Hello, how are you feeling today?"
+            ]
+        ],
+        [
+            "(.*) sorry (.*)",
+            [
+                "There are many times when no apology is needed.",
+                "What feelings do you have when you apologize?"
+            ]
+        ],
+        [
+            "I think (.*)",
+            [
+                "Do you doubt \"%1?\"",
+                "Do you really think so?",
+                "But you're not sure \"%1\"?"
+            ]
+        ],
+        [
+            "How (.*)",
+            [
+                "How do you suppose?",
+                "Perhaps you can answer your own question.",
+                "What is it you're really asking?"
+            ]
+        ]
+    ],
+    "fallback": [
+        "Sorry I didn't understand"
+    ],
+    "reflections": {
+        "you": "me",
+        "you are": "I am",
+        "your": "my",
+        "i am": "you are",
+        "yours": "mine",
+        "you've": "I have",
+        "i'll": "you will",
+        "you were": "I was",
+        "me": "you",
+        "my": "your",
+        "i": "you",
+        "i've": "you have",
+        "i'm": "you are",
+        "i was": "you were",
+        "you'll": "I will",
+        "i'd": "you would"
+    }
+}

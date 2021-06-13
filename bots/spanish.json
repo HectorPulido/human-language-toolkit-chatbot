@@ -1,0 +1,39 @@
+{
+    "pairs": [
+        [
+            "[(Hola)|(Saludos)] (.*)",
+            [
+                "Hola que ¿tal estas?.",
+                "¿Como te va?",
+                "Me alegra mucho verte"
+            ],
+            "¿Como estas?",
+            [
+                "Muy bien, espero que tu tambien estes bien.",
+                "Estoy fantastico"
+            ],
+            "(.*)cuantos(.*)años(.*)",
+            [
+                "Soy un robot no creo tener edad.",
+                "Preguntale a mi creador"
+            ],
+            "(.*)llamas(.*)",
+            [
+                "No tengo nombre, pero hablo español."
+            ]
+        ]
+    ],
+    "fallback": [
+        "No te he entendido, ¿puedes ser mas claro?.",
+        "No comprendo lo que me dices",
+        "¿Que? No te he entendido"
+    ],
+    "reflections": {
+        "tu": "yo",
+        "tuyo": "mio",
+        "soy": "eres",
+        "yo": "tu",
+        "mio": "tuyo",
+        "eres": "soy"
+    }
+}

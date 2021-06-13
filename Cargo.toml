@@ -1,0 +1,23 @@
+[package]
+name = "human_language_toolkit_chatbot"
+version = "0.1.0"
+authors = ["Hector Pulido <hectorandrespp@gmail.com>"]
+edition = "2018"
+
+homepage = "https://github.com/HectorPulido/human-language-toolkit-chatbot"
+description = "NLTK like chatbot made with pure rust."
+repository = "https://github.com/HectorPulido/human-language-toolkit-chatbot"
+readme = "README.md"
+license = "MIT"
+license-file = "LICENSE.md"
+keywords = ["cli", "jarvis", "chatbot", "natural language processing", "hector pulido"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.5.4"
+rand = "0.8.3"
+serde_json = "1.0.64"
+serde = { version = "1.0.126", features = ["derive"] }
+custom_error = "1.9.2"
+
