@@ -9,7 +9,7 @@ description = "NLTK like chatbot made with pure rust."
 repository = "https://github.com/HectorPulido/human-language-toolkit-chatbot"
 readme = "README.md"
 license = "MIT"
-license-file = "LICENSE.md"
+license-file = "LICENSE"
 keywords = ["cli", "jarvis", "chatbot", "natural language processing", "hector pulido"]
 
 [badges]
